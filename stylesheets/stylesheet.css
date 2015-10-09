@@ -74,22 +74,22 @@ textarea {
     $MAIN
 \*------------------------------------*/
 html {
-    background-color: #f6f9f9;
-    color: #95a4a9;
+  /*  background-color: #f6f9f9;
+    color: #95a4a9; */
+    background-image: url('../img/ddd.jpg');
+    background-size: cover;
+    color: white;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
+    
     margin: 10%;
 }
 
 .avatar {
     float: left;
     margin: 0 40px 20px 0;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
+   
 }
     .avatar img {
         max-width: 200px;
@@ -114,41 +114,9 @@ body {
         .social-icons a {
             display: inline-block;
             margin-right: 10px;
-            text-indent: -9999px;
+            
         }
-            .twitter {
-                background-image: url(../img/twitter.png);
-                width: 20px;
-                height: 17px;
-            }
-            .facebook {
-                background-image: url(../img/facebook.png);
-                width: 10px;
-                height: 19px;
-            }
-            .googleplus {
-                background-image: url(../img/googleplus.png);
-                width: 21px;
-                height: 19px;
-            }
-            .dribbble {
-                background-image: url(../img/dribbble.png);
-                width: 21px;
-                height: 19px;
-            }
-            .instagram {
-                background-image: url(../img/instagram.png);
-                width: 20px;
-                height: 19px;
-            }
-            .flickr {
-                background-image: url(../img/flickr.png);
-                width: 20px;
-                height: 9px;
-            }
-
-
-
+          
 
 
 /*------------------------------------*\
@@ -166,11 +134,13 @@ ul, ol, dl {
     list-style-type: none;
 }
 a {
-    color: #339999;
+    color: lightcyan;
+    
     font-weight: bold;
 }
 a:hover, a:focus {
-    color: #95a4a9;
+  /*  color: #95a4a9; */
+    color: aquamarine;
     -webkit-transition: color 0.2s ease;
     -moz-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
